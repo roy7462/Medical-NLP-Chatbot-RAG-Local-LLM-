@@ -166,3 +166,22 @@ Explanation
 •	The relevant clinical text is passed to the local LLM (Phi-3 via Ollama).
 •	The LLM generates a structured clinical response using only the provided patient records.
 
+folder to make for smooth code running
+medical_nlp_chatbot/
+│
+├── app/
+│   ├── main.py
+│   ├── database.py
+│   ├── parser.py
+│   ├── vector_store.py
+│   ├── retriever.py
+│   └── llm.py
+│
+├── data/
+│   └── patient_records.json
+│
+├── database/
+│   └── patients.db
+│
+├── README.md
+
